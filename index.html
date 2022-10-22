@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!--JS-->
+</head>
+<body>
+  <main class="container">
+    <header class="user-balance">
+      <div class="balance">
+        <div class="title">
+          My balance
+        </div>
+        <div class="value">
+          $921.48
+        </div>
+      </div>
+      <div class="logo-area">
+        <img src="./images/logo.svg" alt="Site Logo" class="logo">
+      </div>
+    </header>
+    
+    <div class="main-area">
+      <div class="upper-area">
+        <h2 class="graph-title">
+          Spending - Last 7 days
+        </h2>
+
+        <div class="week-graph">
+          <div class="column-area" id="monday">
+            <div class="column" id="mon-column" style="height: 50px;"></div>
+            <p class="day">
+              mon
+            </p>
+          </div>
+          <div class="column-area" id="tuesday">
+            <div class="column" id="tue-column"></div>
+            <p class="day">
+              tue
+            </p>
+          </div>
+          <div class="column-area" id="wednesday">
+            <div class="column" id="wed-column" style="background-color:var(--cyan) ;"></div>
+            <p class="day">
+              wed
+            </p>
+          </div>
+          <div class="column-area" id="thursday">
+            <div class="column" id="thu-column"></div>
+            <p class="day">
+              thu
+            </p>
+          </div>
+          <div class="column-area" id="friday">
+            <div class="column" id="fri-column"></div>
+            <p class="day">
+              fri
+            </p>          
+          </div>
+          <div class="column-area" id="saturday">
+            <div class="column" id="sat-column"></div>
+            <p class="day">
+              sat
+            </p>
+          </div>
+          <div class="column-area" id="sunday">
+            <div class="column" id="sun-column"></div>
+            <p class="day">
+              sun
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      
+      <hr>
+
+      <div class="bottom-area">
+        <div class="total-month">
+          <p class="title-total-month">Total this month</p>
+          <h1>$478.33</h1>
+        </div>
+        
+        <div class="previous-month">
+          <h3 class="variation">+2.4%</h3>
+          <p class="last-month">from last month</p>
+        </div>
+      </div>
+    </div>
+ 
+  </main>
+
+</body>
+</html>

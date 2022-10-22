@@ -1,0 +1,118 @@
+main{
+    height: 80vh;
+    width: 35%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--softRed);
+    color: var(--veryPaleOrange);
+
+    height: 14vh;
+    padding: 0em 1em;
+    margin: 2em;
+    margin-bottom: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 1em;
+}
+
+header .logo {
+    width: 3em;
+}
+
+header .title {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+header .value {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.main-area {
+    background-color: var(--veryPaleOrange);
+
+    border-radius: 1em;
+    margin: 2em;
+    margin-top: 1em;
+    padding: 1em;
+
+}
+
+.main-area h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+
+    color: var(--darkBrown);
+}
+
+.week-graph {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.day {
+    color: var(--mediumBrown);
+    font-size: 0.8em;
+}
+
+.column-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.column {
+    height: 150px;
+    width: 2em;
+    border-radius: 0.2em;
+    background-color: var(--softRed);
+}
+
+.column:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+hr {
+    border-top: 1px solid var(--mediumBrown);
+    margin: 1em 0em;
+}
+
+.bottom-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1em;
+}
+
+.bottom-area p {
+    color: var(--mediumBrown);
+    font-size: 0.7em;
+}
+
+.bottom-area h1 {
+    color: var(--darkBrown);
+    font-size: 1.5em;
+}
+
+.bottom-area h3 {
+    color: var(--darkBrown);
+    font-size: 0.7em;
+}
+
+.previous-month {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
