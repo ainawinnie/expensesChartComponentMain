@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/style.css">
   <!--JS-->
+  <script src="./JS/script.js" defer></script>
 </head>
 <body>
   <main class="container">
@@ -40,42 +41,49 @@
 
         <div class="week-graph">
           <div class="column-area" id="monday">
-            <div class="column" id="mon-column" style="height: 50px;"></div>
+            <div class="column-value hide" id="mon-value"></div>
+            <div class="column" id="mon-column"></div>
             <p class="day">
               mon
             </p>
           </div>
           <div class="column-area" id="tuesday">
+            <div class="column-value hide" id="tue-value"></div>
             <div class="column" id="tue-column"></div>
             <p class="day">
               tue
             </p>
           </div>
           <div class="column-area" id="wednesday">
-            <div class="column" id="wed-column" style="background-color:var(--cyan) ;"></div>
+            <div class="column-value hide" id="wed-value"></div>
+            <div class="column" id="wed-column" ></div>
             <p class="day">
               wed
             </p>
           </div>
           <div class="column-area" id="thursday">
+            <div class="column-value hide" id="thu-value"></div>
             <div class="column" id="thu-column"></div>
             <p class="day">
               thu
             </p>
           </div>
           <div class="column-area" id="friday">
+            <div class="column-value hide" id="fri-value"></div>
             <div class="column" id="fri-column"></div>
             <p class="day">
               fri
             </p>          
           </div>
           <div class="column-area" id="saturday">
+            <div class="column-value hide" id="sat-value"></div>
             <div class="column" id="sat-column"></div>
             <p class="day">
               sat
             </p>
           </div>
           <div class="column-area" id="sunday">
+            <div class="column-value hide" id="sun-value">$15.03</div>
             <div class="column" id="sun-column"></div>
             <p class="day">
               sun
